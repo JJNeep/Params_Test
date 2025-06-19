@@ -14,7 +14,7 @@ const Text = document.getElementById('id');
 const urlParams = getUrlParams();
 console.log(urlParams);
 
-console.log(urlParams[["hello"]]);
-if (urlParams[["hello"]] = 1) {
-  Text == "hello to u too";
+console.log(urlParams["hello"]);
+if (urlParams["hello"] == 1) {
+  text.textContent = "hello to u too";
 }
