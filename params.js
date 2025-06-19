@@ -11,3 +11,7 @@ function getUrlParams() {
 // Usage
 const urlParams = getUrlParams();
 console.log(urlParams);
+
+if (urlParams[hello]):{
+  print(urlParams[hello]);
+}
