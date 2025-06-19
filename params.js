@@ -8,7 +8,7 @@ function getUrlParams() {
   return paramsObj;
 }
 
-const Text = document.getElementById('id');
+const Text = document.getElementById('text');
 
 // Usage
 const urlParams = getUrlParams();
