@@ -16,5 +16,5 @@ console.log(urlParams);
 
 console.log(urlParams["hello"]);
 if (urlParams["hello"] == 1) {
-  text.textContent = "hello to u too";
+  text.textContent = "hello to you too";
 }
