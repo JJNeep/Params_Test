@@ -12,6 +12,9 @@ function getUrlParams() {
 const urlParams = getUrlParams();
 console.log(urlParams);
 
-console.log(urlParams[["hello"]]
-);
+console.log(urlParams[["hello"]]);
+if (urlParams[["hello"]] = 1):{
+  
+}
+  
 
