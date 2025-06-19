@@ -13,5 +13,5 @@ const urlParams = getUrlParams();
 console.log(urlParams);
 
 if (urlParams[hello]):{
-  print(urlParams[hello]);
+  console.log(urlParams[hello]);
 }
