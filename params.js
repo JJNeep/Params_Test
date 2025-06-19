@@ -8,13 +8,13 @@ function getUrlParams() {
   return paramsObj;
 }
 
+const Text = document.getElementById('id');
+
 // Usage
 const urlParams = getUrlParams();
 console.log(urlParams);
 
 console.log(urlParams[["hello"]]);
 if (urlParams[["hello"]] = 1):{
-  
+  Text.textContent="hello to u too"
 }
-  
-
